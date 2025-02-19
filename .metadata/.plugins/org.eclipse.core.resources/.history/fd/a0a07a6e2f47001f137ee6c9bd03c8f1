@@ -1,0 +1,12 @@
+package pro;
+
+public class clpro {
+	final static int bina = 650;
+	public static void main(String[] args) {
+		int second = bina / 60;
+		int minute = second % 60;
+		
+		System.out.println(second +"분"+minute+"초");
+	}
+
+}
